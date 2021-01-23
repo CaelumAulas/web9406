@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/form-newsletter.css">
 </head>
 <body>
     
@@ -29,8 +31,88 @@
         Conteúdo principal da página
     </main>
 
-    <footer>
-        Rodapé da Página
+    <footer class="rodape">
+    
+        <section class="rodape__secao">
+            <img class="rodape__logo" src="img/logo.svg" alt="Logo da MusicDot" />
+
+            <p>
+                AOVS Sistemas de Informática S.A. <br />
+                CNPJ 05.555.382/0001-33 <br>
+                Rua Vergueiro - São Paulo/SP <br>
+                Telefone (11) 4118-3319
+            </p>
+
+            <ul class="rodape__lista-midias-sociais">
+                <li>
+                    <a href="https://www.facebook.com/musicdotonline" target="_blank">
+                        <img src="img/footer-icone-facebook.svg" alt="MusicDot no Facebook">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com/user/musicdotonline" target="_blank">
+                        <img src="img/footer-icone-youtube.svg" alt="MusicDot no YouTube">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/musicdotonline" target="_blank">
+                        <img src="img/footer-icone-instagram.svg" alt="MusicDot no Instagram">
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="rodape__secao">
+            <h2 class="rodape__titulo">Cursos da MusicDot</h2>
+            <nav>
+                <ul class="rodape__lista">
+                    <li><a href="#">Cursos de Teclado & Piano</a></li>
+                    <li><a href="#">Cursos de Violão/Guitarra</a></li>
+                    <li><a href="#">Cursos de Baixo</a></li>
+                    <li><a href="#">Cursos de Bateria</a></li>
+                    <li><a href="#">Cursos de Percussão</a></li>
+                    <li><a href="#">Cursos de Canto</a></li>
+                    <li><a href="#">Cursos de Áudio</a></li>
+                    <li><a href="#">Cursos de Teoria</a></li>
+                    <li><a href="#">Cursos de Sopro</a></li>
+                    <li><a href="#">Cursos de Cordas</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="rodape__secao">
+            <h2 class="rodape__titulo">MusicDot</h2>
+            <nav>
+                <ul class="rodape__lista">
+                    <li><a href="#">Apostila</a></li>
+                    <li><a href="#">E-book</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Matricule-se</a></li>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                    <li><a href="#">Para Escolas</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="rodape__secao">
+            <h2 class="rodape__titulo">
+                Receba novidades e lançamentos
+            </h2>
+
+            <form method="GET" class="form-newsletter">
+                <label for="email-newsletter">
+                    Seu e-mail pessoal
+                </label>
+                <input type="email" id="email-newsletter" name="email-newsletter" class="form-newsletter__campo" />
+                <button type="submit">
+                    OK
+                </button>
+            </form>
+        </section>
+
     </footer>
 
 </body>

@@ -1,0 +1,27 @@
+.form-newsletter {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 2px solid #e93d50;
+    background-color: #e93d50;
+    overflow: hidden;
+}
+
+.form-newsletter label {
+    position: absolute;
+    left: -10000px;
+}
+
+.form-newsletter button {
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #e93d50;
+    color: #fff;
+}
+
+.form-newsletter__campo {
+    padding: .6rem .4rem;
+    border: none;
+}

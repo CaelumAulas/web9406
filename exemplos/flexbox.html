@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .flex {
+            border: 4px solid black;
+            width: 600px;
+            height: 600px;
+            margin: 0 auto;
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Alinhamento na horizontal */
+            align-items: flex-start; /* Alinhamento dos Itens de cada linha do Contêiner Flex */
+            align-content: center; /* Alinhamento do Conjunto de Linhas do Contêiner Flex */
+        }
+
+        .box {
+            padding: 40px;
+            background-color: yellow;
+            width: 100px;
+        }
+
+        .box2, .box6 {
+            height: 250px;
+        }
+
+        .box4 {
+            height: 120px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="flex">
+        <div class="box box1">Box 1</div>
+        <div class="box box2">Box 2</div>
+        <div class="box box3">Box 3</div>
+        <div class="box box4">Box 4</div>
+        <div class="box box5">Box 5</div>
+        <div class="box box6">Box 6</div>
+        <div class="box box7">Box 7</div>
+        <div class="box box8">Box 8</div>
+        <div class="box box9">Box 9</div>
+        <div class="box box10">Box 10</div>
+    </div>
+
+</body>
+</html>

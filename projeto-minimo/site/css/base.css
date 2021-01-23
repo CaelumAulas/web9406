@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Ubuntu:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* Variáveis em CSS */
+:root {
+    --cor-texto-padrao: #626262;
+    --cor-texto-categoria: #b4ad9e;
+    --cor-texto-link: #000;
+    --cor-fundo-padrao: #f0f0f0;
+    --fonte-ubuntu: 'Ubuntu', sans-serif;
+    --fonte-playfair: 'Playfair Display', serif;
+    --tamanho-fonte-titulo: 30px;
+    --tamanho-fonte-categoria: 14px;
+    --tamanho-fonte-padrao: 16px;
+}
+
+body {
+    font-family: var(--fonte-playfair);
+    font-size: var(--tamanho-fonte-padrao);
+    color: var(--cor-texto-padrao);
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-texto-link);
+}

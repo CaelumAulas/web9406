@@ -19,9 +19,11 @@
     font-weight: 600;
     background-color: #e93d50;
     color: #fff;
+    flex-grow: 1;
 }
 
 .form-newsletter__campo {
     padding: .6rem .4rem;
     border: none;
+    flex-grow: 1;
 }

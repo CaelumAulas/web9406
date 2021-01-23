@@ -1,0 +1,20 @@
+Parágrafos
+Menu
+Títulos / Subtítulos
+Links Redes Sociais
+    #626262
+
+Titulo da Newsletter
+    #333333
+
+Categorias de Post
+    #b4ad9e
+
+Fundo da Newsletter
+Fundo do Rodapé
+    #f0f0f0
+
+Textos e Links Textuais do Rodapé
+    #000000
+
+

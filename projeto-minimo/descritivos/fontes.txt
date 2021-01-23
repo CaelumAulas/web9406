@@ -1,0 +1,6 @@
+Playfair Display
+    Regular 400
+    Regular Italic 400
+
+Ubuntu
+    Light 300

@@ -36,10 +36,65 @@
     margin: 0.625em 0;
 }
 
-.rodape__secao:not(:first-child) {
-    margin-top: 2em;
-}
-
 .rodape__secao p {
     line-height: 1.5;
 }
+
+@media (max-width: 640px) {
+    .rodape__secao:not(:first-child) {
+        margin-top: 2em;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 1200px) {
+    .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-size: 1rem;
+    }
+
+    .rodape__secao {
+        width: 45%;
+    }
+
+    .rodape__secao--cursos {
+        order: 1;
+    }
+
+    .rodape__secao--links {
+        order: 2;
+    }
+
+    .rodape__secao--sobre {
+        order: 3;
+        margin-top: 2em;
+    }
+
+    .rodape__secao--newsletter {
+        order: 4;
+        margin-top: 2em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .rodape {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.85rem;
+        text-align: left;
+    }
+
+    .rodape__titulo {
+        font-size: 1em;
+    }
+
+    .rodape__lista-midias-sociais {
+        justify-content: left;
+    }
+
+    .rodape__secao:not(:first-child) {
+        margin-left: 2em;
+    }
+}
+

@@ -1,0 +1,34 @@
+Cabecalho:
+    Espaçamento interno = 65px (superior e inferior)
+    > Alinhamento vertical centralizado (flexbox)
+    Texto em letra maiúscula
+
+li do Cabecalho:
+    Espaçamento externo esquerdo = 90px
+
+links do menu do Cabecalho:
+    cor do texto = cor-texto-padrao (variavel)
+    espaçamento interno inferior = 5px
+    borda inferior de 2px sólida e transparente
+
+Hover links do menu do Cabecalho:
+    cor da borda inferior = preta
+    cor do texto = --cor-texto-link (variavel)
+
+
+Mobile: (Tela máxima de 600px)
+
+    Cabecalho:
+        Alinhamento de texto = centralizado
+        Alinhamento horizontal centralizado (flexbox)
+
+    Menu do Cabecalho:
+        largura = 100%
+        borda superior = 1px, sólida --cor-fundo-padrao
+        borda inferior = 1px, sólida --cor-fundo-padrao 
+        Espaçamento interno superior e inferior = 20px
+        Espaçamento interno esquerdo e direito = 10px
+        Espaçamento externo superior = 20px
+
+    li do Cabecalho:
+        Espaçamento externo esquerdo = 0

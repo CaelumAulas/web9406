@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <style>
+
+        div {
+            width: 400px;
+            padding: 20px;
+            margin: 30px auto;
+            border: 3px solid black;
+        }
+
+        .grupo-1 p::selection {
+            background-color: yellow;
+            color: red;
+        }
+
+        .grupo-1 p:first-child::first-line {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 18px;
+        }
+
+        .grupo-1 p:first-child::first-letter {
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        button {
+            border: 2px solid #214c91;
+            background-color: #5c8ddb;
+            border-radius: 5px;
+            padding: 10px 20px;
+            color: white;
+        }
+
+        /* button::after {
+            content: '';
+            display: inline-block;
+            width: 5px;
+            height: 5px;
+            border-top: 1px solid white;
+            border-right: 1px solid white;
+            transform: rotate(45deg);
+            position: relative;
+            top: -1px;
+        } */
+
+        button::after {
+            content: '\f834';
+            font-family: 'Font Awesome 5 Brands';
+            font-weight: 900;
+            font-size: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+<div class="grupo-1">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptate itaque natus in facere fugit mollitia nam eius dolorum delectus voluptatibus, repellendus eos cupiditate quaerat tempore dignissimos suscipit repudiandae iusto?</p>
+    <p>Sint sequi, unde, cumque commodi optio maiores expedita iure recusandae cum nam eligendi alias sit rem pariatur voluptates culpa placeat sunt. Animi ipsum voluptatibus iure aliquid fugiat sapiente tempora iusto.</p>
+    <p>Voluptate voluptates dolorem molestias, nihil in amet tempore vel consequuntur maxime? Unde, sint repellendus earum eveniet vel optio eaque eligendi corporis facere laborum ipsam temporibus asperiores ullam natus amet ipsum.</p>
+    <p>Inventore illo vitae placeat voluptates numquam fugit nemo possimus dicta id voluptas incidunt esse deserunt accusamus suscipit aut aspernatur nobis veritatis autem architecto fugiat, quidem natus optio sit quo. Laborum.</p>
+    <p>Optio ab assumenda perspiciatis, deserunt quo aperiam maiores odio accusamus impedit pariatur dolorem eaque obcaecati eligendi similique quibusdam sed, consequatur, laborum fugit consequuntur. Totam ducimus est cum sequi eligendi suscipit?</p>
+</div>
+
+<hr>
+
+<div class="grupo-2">
+    <p>Ut vero laudantium illum ipsa incidunt sint. Ipsum ut consequuntur nihil velit animi laborum! Excepturi perferendis minima officia! Perspiciatis exercitationem aperiam vel in reprehenderit earum quis maxime hic deleniti dignissimos.</p>
+    <p>Possimus natus, quam suscipit iste consectetur laborum voluptate voluptas molestiae! Placeat molestias doloremque ad sed consequatur hic necessitatibus enim pariatur optio mollitia, reprehenderit dolor sit repellat sapiente id perferendis corporis.</p>
+    <p>Officiis repudiandae inventore sit ratione natus. Rem, praesentium sed! Eos dolorem sit doloremque fugit vitae perferendis neque, culpa maiores rerum fuga, recusandae illum beatae, hic numquam magnam sapiente dolor ipsam!</p>
+    <p>Numquam qui hic accusamus, consequuntur, tempora mollitia est, itaque a saepe asperiores deserunt sit nemo veniam culpa ex ad! Ut consequatur expedita ipsam laboriosam obcaecati incidunt tenetur a illo minus?</p>
+    <p>Nesciunt libero reprehenderit veniam laboriosam cumque rem harum dolor recusandae accusamus, odio quisquam dicta natus explicabo magni sit dolorem mollitia! Quidem, non. Minus doloremque asperiores aspernatur corrupti sapiente eaque cum.</p>
+</div>
+
+<hr>
+
+<button>
+    Próximo Passo
+</button>
+
+</body>
+</html>

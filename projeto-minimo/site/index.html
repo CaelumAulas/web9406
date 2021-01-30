@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/rodape.css">
 </head>
 <body>
-    <header>
+    <header class="cabecalho container flex">
         <h1>
             <a href="index.html">
                 <img src="img/minimo-logo.jpg" alt="Minimo" />
             </a>
         </h1>
-        <nav>
-            <ul>
+        <nav class="menu">
+            <ul class="flex">
                 <li><a href="#">Lifestyle</a></li>
                 <li><a href="#">Photodiary</a></li>
                 <li><a href="#">Music</a></li>
@@ -25,22 +27,24 @@
         </nav>
     </header>
 
-    <footer>
-        <section>
-            <ul>
-                <li><a href="#">Terms and Conditions</a></li>
-                <li><a href="#">Privacy</a></li>
-            </ul>
-        </section>
+    <footer class="rodape">
+        <div class="container-pequeno flex">
+            <section class="menu-termos">
+                <ul class="flex">
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </section>
 
-        <section>
-            <h6>Follow</h6>
-            <ul>
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-        </section>
+            <section class="menu-social flex">
+                <h6>Follow</h6>
+                <ul class="flex">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </section>
+        </div>
     </footer>
 </body>
 </html>

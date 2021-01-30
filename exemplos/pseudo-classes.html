@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+
+        li:hover {
+            background-color: #ddd;
+            font-weight: bold;
+        }
+
+        li:first-child {
+            border: 2px solid blue;
+        }
+
+        li:last-child {
+            border: 2px solid yellowgreen;
+        }
+
+        div {
+            background: #eee;
+            padding: 10px;
+        }
+
+        p:last-of-type {
+            color: red;
+        }
+
+        p:first-of-type {
+            color: purple;
+        }
+
+        :checked + span {
+            text-decoration: line-through;
+        }
+
+        li:nth-child(4) {
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+        <li>Item 7</li>
+        <li>Item 8</li>
+        <li>Item 9</li>
+        <li>Item 10</li>
+    </ul>
+
+    <p># Parágrafo fora da DIV... Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro quidem debitis animi tempora amet consequuntur dolores suscipit, tempore architecto accusantium optio ab fugiat fugit nam velit, quibusdam laboriosam in earum?</p>
+
+    <div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis dolorem odio nisi iure nesciunt dolor quas in. Sed error perferendis iste ut? Eligendi ut ipsum beatae consequuntur ullam perspiciatis placeat.</p>
+        <p>Nemo dicta dignissimos maiores ullam quis commodi hic, natus voluptatem, veritatis incidunt tempore doloribus dolores accusamus eius voluptatum voluptas deserunt ipsam doloremque magni. Aspernatur iste magni quisquam. Eligendi, asperiores illo.</p>
+        <p>Deleniti quidem quis, labore alias asperiores eveniet veniam. Amet voluptates tempora aut similique, quo incidunt asperiores consequatur qui? Temporibus animi eos aspernatur blanditiis sint dolor similique consectetur dolore adipisci in!</p>
+    </div>
+
+    <p># Paragrafo fora da DIV... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam cum non assumenda, recusandae modi illo quae et labore odit quam aliquam. Dolorem quam, vero quasi doloribus nihil perferendis beatae. Voluptates?</p>
+
+    <span>Um texto qualquer aqui no final</span>
+
+    <hr>
+
+    <label>
+        <input type="checkbox" /> <span>Opção 1</span>
+    </label>
+    <label>
+        <input type="checkbox" /> <span>Opção 2</span>
+    </label>
+    <label>
+        <input type="checkbox" /> <span>Opção 3</span>
+    </label>
+
+</body>
+</html>

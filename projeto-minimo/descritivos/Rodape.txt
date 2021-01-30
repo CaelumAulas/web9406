@@ -1,0 +1,25 @@
+Rodape:
+    Cor de fundo = --cor-fundo-padrao
+    Espaçamento interno superior e inferior = 40px
+    Espaçamento interno esquerdo e direito = 0
+    cor de texto = --cor-texto-link
+
+H6 do Rodape:
+    Espaçamento externo direito = 17px
+
+Links do Menu Social do Rodape:
+    cor de texto = --cor-texto-padrao 
+
+Hover dos Links do Rodape:
+    opacidade = 60% (opacity: .6)
+
+
+Mobile: (Tela máxima de 600px)
+
+    Elementos Flex do Rodapé:
+        Alinhamento Horizontal Centralizado (Flexbox)
+
+    Sections do Rodape:
+        Alinhamento de texto centralizado 
+        Espaçamento externo geral = 10px
+        Largura de 100%

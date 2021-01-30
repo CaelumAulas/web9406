@@ -1,0 +1,40 @@
+.rodape {
+    background-color: var(--cor-fundo-padrao);
+    padding: 40px 0;
+    color: var(--cor-texto-link);
+}
+
+.rodape h6 {
+    margin-right: 17px;
+}
+
+.rodape li:not(:first-child) {
+    margin-left: 17px;
+}
+
+.rodape .menu-social a {
+    color: var(--cor-texto-padrao);
+}
+
+.rodape a:hover {
+    opacity: .6;
+}
+
+@media (max-width: 600px) {
+    .rodape .flex {
+        justify-content: center;
+    }
+
+    .rodape section {
+        text-align: center;
+        margin: 10px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px) {
+    .rodape {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}

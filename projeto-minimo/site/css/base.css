@@ -27,3 +27,23 @@ a {
     text-decoration: none;
     color: var(--cor-texto-link);
 }
+
+/* Containers */
+.container,
+.container-pequeno {
+    width: 100%;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.container-pequeno {
+    max-width: 900px;
+}
+
+/* Container Flexbox */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}

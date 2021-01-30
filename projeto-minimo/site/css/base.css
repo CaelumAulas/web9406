@@ -26,6 +26,7 @@ body {
 a {
     text-decoration: none;
     color: var(--cor-texto-link);
+    transition: .5s linear;
 }
 
 /* Containers */
@@ -46,4 +47,8 @@ a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+}
+
+.flex-vertical-top {
+    align-items: flex-start;
 }

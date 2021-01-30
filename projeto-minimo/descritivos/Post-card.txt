@@ -1,0 +1,49 @@
+Post Card &&
+Post Card Destacado:
+    largura = 420px
+    Espaçamento externo inferior = 115px
+    Altura da linha = 1.6
+
+Post Card Destacado:
+    largura = 100%
+
+Imagem do Post Card:
+    largura = 100%
+    altura = automatica
+    Tornar elemento de bloco
+
+Link filho direto de Post Card:
+    tornar elemento de bloco
+
+Aside do Post Card:
+    Espaçamento externo inferior e superior = 30px
+    Espaçamento externo laterais = 0
+    Texto em letra maiúscula
+    Tamanho da Fonte = --tamanho-fonte-categoria
+    Familia de Fonte = --fonte-ubuntu
+
+Link do Aside do Post Card:
+    Cor de Texto = --cor-texto-categoria
+
+Hover do Link do Aside Post Card:
+    Cor de Texto = --cor-texto-link
+
+H2 do Post Card && 
+Link do H2 do Post Card :
+    Tamanho da fonte = --tamanho-fonte-titulo
+    Cor do Texto = --cor-texto-padrao
+    Espaçamento externo inferior = 30px
+
+Hover link do H2 Post Card:
+    Opacidade = .6
+
+
+Mobile: (Tela máxima de 480px)
+
+    Post Card:
+        largura = 100%
+        Espaçamento interno laterais = 10px
+
+    Aside do Post Card:
+        Espaçamento externo inferior e superior = 15px 
+        Espaçamento externo laterais = 0

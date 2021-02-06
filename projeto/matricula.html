@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/matricula.css">
+    <title>Matrículas</title>
+    <script src="js/matricula.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <img class="header-navbar-logo" src="img/musicdot-logo-light.svg" alt="Logo da MusicDot" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Cursos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Matrículas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">E-mails</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <main class="container mb-5">
+        <div class="header-matricula jumbotron bg-dark text-light mt-3">
+            <div class="container">
+                <h1>Escolher cursos</h1>
+                <p class="lead">Escolha os cursos que gostaria de se matricular</p>
+            </div>
+        </div>
+
+        <table class="table table-hover rounded-top">
+            <thead class="thead-dark">
+                <tr>
+                    <th></th>
+                    <th>Curso</th>
+                    <th>Tempo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox" name="curso" value="20" /></td>
+                    <td>Curso de Violão</td>
+                    <td>20h</td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" name="curso" value="30" /></td>
+                    <td>Curso de Bambolê</td>
+                    <td>30h</td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" name="curso" value="12" /></td>
+                    <td>Curso de Java</td>
+                    <td>12h</td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" name="curso" value="20" /></td>
+                    <td>Curso de Violão</td>
+                    <td>20h</td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" name="curso" value="30" /></td>
+                    <td>Curso de Bambolê</td>
+                    <td>30h</td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" name="curso" value="12" /></td>
+                    <td>Curso de Java</td>
+                    <td>12h</td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" name="curso" value="20" /></td>
+                    <td>Curso de Violão</td>
+                    <td>20h</td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" name="curso" value="30" /></td>
+                    <td>Curso de Bambolê</td>
+                    <td>30h</td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" name="curso" value="12" /></td>
+                    <td>Curso de Java</td>
+                    <td>12h</td>
+                </tr>
+
+                <tr class="bg-dark text-light">
+                    <td>Total</td>
+                    <td class="js-total-de-cursos">0 curso(s)</td>
+                    <td class="js-total-de-horas">0h</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button class="botao-matricula btn btn-outline-dark btn-lg mb-4">
+            Confirmar Matrícula
+        </button>
+    </main>
+    
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

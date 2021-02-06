@@ -1,0 +1,40 @@
+Newsletter:
+    cor de fundo = --fundo-cinza
+    espaçamento interno superior e inferior = 70px
+    espaçamento interno laterais = 0
+    alinhamento de texto = centralizado
+    espaçamento externo inferior = 115px
+
+H3 do Newsletter:
+    tamanho da fonte = --tamanho-fonte-titulo
+    cor de texto = --cor-texto-link 
+
+Formulario do Newsletter:
+    borda inferior = 2px solid black
+    largura máxima = 400px
+    largura = 80%
+    espaçamento externo superior = 70px
+    espaçamento externo laterais = automático
+    espaçemtno externo inferior = 0 
+    alinhamento vertical (flexbox) = centralizado 
+
+input e botão do Newsletter:
+    sem borda
+    cor de fundo = transparente
+    espaçamento interno superior e inferior = 12px
+    espaçamento interno laterais = 5px
+    largura = 90%
+    outline = none
+    Fonte = inherit
+    Tamanho da fonte = inherit 
+
+Botão do Newsletter:
+    largura = 10%
+    tamanho da fonte = 25px
+
+
+Mobile: (Tela máxima de 600px)
+
+    Newsletter:
+        espaçamento interno esquerdo = 15px 
+        espaçamento interno direito = 15px

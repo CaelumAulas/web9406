@@ -1,0 +1,41 @@
+.newsletter {
+    background-color: var(--cor-fundo-padrao);
+    padding: 70px 0;
+    text-align: center;
+    margin-bottom: 115px;
+}
+
+.newsletter h3 {
+    font-size: var(--tamanho-fonte-titulo);
+    color: var(--cor-texto-link);
+}
+
+.newsletter form {
+    border-bottom: 2px solid black;
+    max-width: 400px;
+    width: 80%;
+    margin: 70px auto 0;
+    align-items: stretch;
+}
+
+.newsletter input, .newsletter button {
+    border: none;
+    background-color: transparent;
+    padding: 12px 5px;
+    width: 90%;
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+}
+
+.newsletter button {
+    font-size: 25px;
+    width: 10%;
+}
+
+@media (max-width: 600px) {
+    .newsletter {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

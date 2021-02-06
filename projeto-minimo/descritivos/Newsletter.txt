@@ -1,5 +1,5 @@
 Newsletter:
-    cor de fundo = --fundo-cinza
+    cor de fundo = --cor-fundo-padrao
     espaçamento interno superior e inferior = 70px
     espaçamento interno laterais = 0
     alinhamento de texto = centralizado

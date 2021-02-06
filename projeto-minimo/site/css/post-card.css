@@ -59,14 +59,24 @@
     opacity: .6;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
     .post-card {
-        width: 100%;
+        width: 50%;
         padding-left: 10px;
         padding-right: 10px;
     }
 
+    .post-card-destacado {
+        width: 100%;
+    }
+
     .post-card aside {
         margin: 15px 0;
+    }
+}
+
+@media (max-width: 520px) {
+    .post-card {
+        width: 100%;
     }
 }

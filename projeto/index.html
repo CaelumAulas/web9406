@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="css/container.css">
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/cursos.css">
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/beneficios.css">
     <link rel="stylesheet" href="css/form-newsletter.css">
 </head>
 <body>
@@ -47,9 +50,9 @@
                     <li class="curso--tecladopiano"><a href="#">Teclado & Piano</a></li>
                     <li class="curso--violaoguitarra"><a href="#">Violão & Guitarra</a></li>
                     <li class="curso--baixo"><a href="#">Baixo</a></li>
-                    <li class="curso--bateria"><a href="#">Bateria</a></li>
+                    <li class="curso--bateria curso--destaque"><a href="#">Bateria</a></li>
                     <li class="curso--percussao"><a href="#">Percussão</a></li>
-                    <li class="curso--canto"><a href="#">Canto</a></li>
+                    <li class="curso--canto curso--destaque2"><a href="#">Canto</a></li>
                     <li class="curso--audio"><a href="#">Áudio</a></li>
                     <li class="curso--teoria"><a href="#">Teoria</a></li>
                     <li class="curso--sopro"><a href="#">Sopro</a></li>
@@ -57,6 +60,55 @@
                 </ul>
             </nav>
         </section>
+
+        <!-- Vídeo -->
+        <section class="video">
+            <video controls class="video--mobile" src="video/video-promocional.mp4" poster="img/video-principal-mobile.png"></video>
+            <video controls class="video--desktop" src="video/video-promocional.mp4" poster="img/video-principal.png"></video>
+            <article class="video__textos">
+                <h2 class="textos__titulo">Estude com os melhores professores</h2>
+                <p>Aprenda no seu ritmo, sem sair de casa</p>
+            </article>
+        </section>
+
+        <!-- Benefícios -->
+        <section class="beneficios">
+            <h2 class="beneficios__titulo">Por que estudar na MusicDot?</h2>
+            <ul class="beneficios__lista">
+                <li class="beneficio--paravoce">
+                    <h3>Tudo para você realmente aprender</h3>
+                    <p>
+                        Você acessa todo o conteúdo! São aulas, exercícios, playbacks, cifras, partituras e tira dúvidas. 
+                        Estudem em qualquer lugar, qualquer dia, qualquer horário, ilimitado. Matricule-se já!
+                    </p>
+                </li>
+
+                <li class="beneficio--duvidas">
+                    <h3>Nenhuma dúvida sem resposta</h3>
+                    <p>
+                        Dúvidas são importantes para o seu aprendizado, e as dificuldades são normais. Na MusicDot você estuda 
+                        com todo o suporte necessário. Além de todo conteúdo, você tira dúvidas.
+                    </p>
+                </li>
+
+                <li class="beneficio--didatica">
+                    <h3>Didática cuidadosa que te faz aprender</h3>
+                    <p>
+                        Saber tocar não quer dizer saber ensinar. Na MusicDot você encontra os dois! Nosso orgulho é justo o extremo
+                        cuidado didático que temos com as aulas. Investimos muito tempo.
+                    </p>
+                </li>
+
+                <li class="beneficio--online">
+                    <h3>Estudar online é a melhor opção</h3>
+                    <p>
+                        Aprender em DVD e revistinha de banca são coisas do passado! Estudar com um professor particular é bom, 
+                        mas quem é o seu professor? A MusicDot te oferece a melhor aula, a qualquer hora.
+                    </p>
+                </li>
+            </ul>
+        </section>
+
     </main>
 
     <footer class="rodape container">
